@@ -22,7 +22,7 @@ export default [
   {
     title: "Norway",
     location: "Geirangerfjord",
-    googleMapsUrl: "http://goo.gl/maps/1DGM5WrWnATgkSNB8",
+    googleMapsUrl: "https://goo.gl/maps/nrJLHRgqGW8iTcnA6",
     startDate: "01 Oct, 2023",
     endDate: "18 Nov, 2023",
     description:
