@@ -8,7 +8,11 @@ export default function Card() {
           <div className="location-container">
             <ion-icon src="/src/images/location-sharp.svg"></ion-icon>
             <span className="location-name">japan</span>
-            <a className="location-link" href="">
+            <a
+              className="location-link"
+              href="http://goo.gl/maps/1DGM5WrWnATgkSNB8"
+              target="_blank"
+            >
               View on Google Maps
             </a>
           </div>

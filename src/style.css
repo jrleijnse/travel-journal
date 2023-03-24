@@ -44,7 +44,8 @@ p, h1, h2, h3, h4, h5, h6 {
 /* -------------------- CSS RESET ------------------ */
 .main-container {
   width: 550px;
-  height: 704px;
+  height: -moz-fit-content;
+  height: fit-content;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 10px;
   overflow: hidden;
@@ -121,7 +122,8 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #2b283a;
 }
 
-.border {
+/* -------------------- HELPER CLASSES ------------------ */
+.border:not(:last-child) {
   width: 470px;
   margin: 0 auto;
   border: 1px solid #f5f5f5;
