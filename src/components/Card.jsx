@@ -1,29 +1,27 @@
-export default function Card() {
+export default function Card(props) {
+  console.log(props.data[0]);
   return (
     <>
       <div className="card-container">
-        <div className="card-img" role="img" aria-label="Mount Fuji" />
-
+        <img className="card-img" src={props.data[0].imageUrl} />
         <div className="card-content">
           <div className="location-container">
             <ion-icon src="/src/images/location-sharp.svg"></ion-icon>
-            <span className="location-name">japan</span>
+            <span className="location-name">{props.data[0].location}</span>
             <a
               className="location-link"
-              href="http://goo.gl/maps/1DGM5WrWnATgkSNB8"
+              href={props.data[0].googleMapsUrl}
               target="_blank"
             >
               View on Google Maps
             </a>
           </div>
 
-          <h1 className="card-title">Mount Fuji</h1>
-          <span className="card-date">12 Jan, 2021 - 24 Jan, 2021</span>
-          <p className="card-text">
-            Mount Fuji is the tallest mountain in Japan, standing at 3,776
-            meters (12,380 feet). Mount Fuji is the single most popular tourist
-            site in Japan, for both Japanese and foreign tourists.
-          </p>
+          <h1 className="card-title">{props.data[0].title}</h1>
+          <span className="card-date">
+            {props.data[0].startDate} - {props.data[0].endDate}
+          </span>
+          <p className="card-text">{props.data[0].description}</p>
         </div>
       </div>
       <div className="border" />

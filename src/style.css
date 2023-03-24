@@ -78,11 +78,10 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 40px 40px 20px 40px;
 }
 .main-container .card-container .card-img {
-  background: url("https://source.unsplash.com/WLxQvbMyfas");
-  background-size: cover;
-  background-position: center;
-  width: 70%;
+  width: 103px;
   height: 168px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 5px;
 }
 .main-container .card-container .location-container {
