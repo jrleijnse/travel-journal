@@ -22,7 +22,7 @@ export default function Card() {
           </p>
         </div>
       </div>
-      <hr className="border" />
+      <div className="border" />
     </>
   );
 }
