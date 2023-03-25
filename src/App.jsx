@@ -3,11 +3,15 @@ import Card from "./components/Card";
 import data from "./data";
 
 export default function App() {
+  const cards = data.map((item) => {
+    return <Card item={item} />;
+  });
+
   return (
     <main>
       <div className="main-container">
         <Header />
-        <Card data={data} />
+        {cards}
       </div>
     </main>
   );
