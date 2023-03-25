@@ -10,7 +10,7 @@
   padding: 0;
 }
 
-main {
+body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,6 +57,7 @@ p, h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   height: 55px;
+  margin-bottom: 20px;
   color: white;
   background-color: #f55a5a;
 }
@@ -75,7 +76,7 @@ p, h1, h2, h3, h4, h5, h6 {
   width: 550px;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 40px 40px 20px 40px;
+  padding: 20px 40px 20px 40px;
 }
 .main-container .card-container .card-img {
   width: 125px;

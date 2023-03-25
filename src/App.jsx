@@ -8,11 +8,11 @@ export default function App() {
   });
 
   return (
-    <main>
-      <div className="main-container">
+    <body>
+      <main className="main-container">
         <Header />
         {cards}
-      </div>
-    </main>
+      </main>
+    </body>
   );
 }

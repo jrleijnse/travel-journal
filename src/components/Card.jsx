@@ -1,5 +1,4 @@
 export default function Card(props) {
-  console.log(props.item);
   return (
     <>
       <div className="card-container">
