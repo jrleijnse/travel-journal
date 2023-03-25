@@ -2,6 +2,7 @@
   "name": "travel-journal",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://jrleijnse.github.io/travel-journal",
   "type": "module",
   "scripts": {
     "dev": "vite",
