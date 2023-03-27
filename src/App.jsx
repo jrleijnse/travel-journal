@@ -4,15 +4,15 @@ import data from "./data";
 
 export default function App() {
   const cards = data.map((item) => {
-    return <Card item={item} />;
+    return <Card item={item} key={item.title} />;
   });
 
   return (
-    <body>
-      <main className="main-container">
+    <main>
+      <div className="main-container">
         <Header />
         {cards}
-      </main>
-    </body>
+      </div>
+    </main>
   );
 }
