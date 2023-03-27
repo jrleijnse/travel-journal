@@ -1,7 +1,9 @@
 export default function Header() {
   return (
     <div className="header">
-      <ion-icon src="images/earth.svg"></ion-icon>
+      <div className="earth-icon">
+        <ion-icon name="earth"></ion-icon>
+      </div>
       <span className="header-title">my travel journal.</span>
     </div>
   );

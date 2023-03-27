@@ -66,7 +66,8 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 14.4608px;
   letter-spacing: -0.075em;
 }
-.main-container .header ion-icon {
+.main-container .header .earth-icon {
+  display: flex;
   font-size: 24px;
   margin-right: 7px;
 }
@@ -89,7 +90,8 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
 }
-.main-container .card-container .location-container ion-icon {
+.main-container .card-container .location-container .location-icon {
+  display: flex;
   color: #f55a5a;
   font-size: 10px;
   margin-right: 4px;

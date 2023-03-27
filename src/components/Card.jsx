@@ -5,7 +5,12 @@ export default function Card(props) {
         <img className="card-img" src={props.item.imageUrl} />
         <div className="card-content">
           <div className="location-container">
-            <ion-icon src="images/location-sharp.svg"></ion-icon>
+            <div className="location-icon">
+              <ion-icon
+                className="location-icon"
+                name="location-sharp"
+              ></ion-icon>
+            </div>
             <span className="location-name">{props.item.location}</span>
             <a
               className="location-link"
