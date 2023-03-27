@@ -63,9 +63,8 @@ p, h1, h2, h3, h4, h5, h6 {
       letter-spacing: -0.075em;
     }
 
-    .header-icon {
-      width: 24px;
-      height: 24px;
+    ion-icon {
+      font-size: 24px;
       margin-right: 7px;
     }
   }
@@ -89,10 +88,9 @@ p, h1, h2, h3, h4, h5, h6 {
       display: flex;
       align-items: center;
 
-      .location-icon {
-        fill: #f55a5a !important;
-        width: 10px;
-        height: 10px;
+      ion-icon {
+        color: #f55a5a;
+        font-size: 10px;
         margin-right: 4px;
       }
 

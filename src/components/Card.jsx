@@ -5,7 +5,7 @@ export default function Card(props) {
         <img className="card-img" src={props.item.imageUrl} />
         <div className="card-content">
           <div className="location-container">
-            <img className="location-icon" src="/images/location-sharp.svg" />
+            <ion-icon src="images/location-sharp.svg"></ion-icon>
             <span className="location-name">{props.item.location}</span>
             <a
               className="location-link"
